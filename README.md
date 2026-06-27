@@ -15,9 +15,10 @@
 
 ## About The Project
 
-This project implements a sparse Structure-from-Motion pipeline from scratch.
+This project implements a sparse Structure-from-Motion pipeline from scratch using images from the **DTU dataset**.
 
-Given a sequence of images, the pipeline reconstructs a sparse 3D point cloud by estimating camera motion and triangulating matched image features across frames.
+Given a sequence of images from the DTU dataset, the pipeline reconstructs a sparse 3D point cloud by estimating camera motion and triangulating matched image features across frames.
+
 
 The reconstruction pipeline includes:
 
@@ -36,7 +37,13 @@ The reconstruction pipeline includes:
 This implementation is designed as a learning-focused SfM baseline rather than a production-level reconstruction system.
 
 ---
+## Dataset
 
+This project uses images from the **DTU dataset** for sparse 3D reconstruction experiments.
+
+The DTU dataset provides multi-view image sequences with camera information, making it suitable for learning and experimenting with Structure-from-Motion pipelines.
+
+---
 ## Input Preview
 
 Original input images used for reconstruction:
