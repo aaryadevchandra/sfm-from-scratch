@@ -40,7 +40,7 @@ This implementation is designed as a learning-focused SfM baseline rather than a
 
 ## Dataset
 
-This project uses images from the [**DTU dataset**](https://roboimagedata.compute.dtu.dk/) for sparse 3D reconstruction experiments.
+This project uses images from the [DTU dataset](https://roboimagedata.compute.dtu.dk/) for sparse 3D reconstruction experiments.
 
 The DTU dataset provides multi-view image sequences with camera information, making it suitable for learning and experimenting with Structure-from-Motion pipelines.
 
