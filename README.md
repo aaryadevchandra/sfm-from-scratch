@@ -19,6 +19,8 @@ This project implements a sparse Structure-from-Motion pipeline from scratch usi
 
 Given a sequence of images from the DTU dataset, the pipeline reconstructs a sparse 3D point cloud by estimating camera motion and triangulating matched image features across frames.
 
+AI note - ONLY the final display funciton is ai, rest is all me, feel free to grill me on each line of the code : )
+
 
 The reconstruction pipeline includes:
 
